@@ -1,8 +1,8 @@
 {
   "name": "simple-zkaccount-2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethers": "^6.12.1",
+    "solc": "^0.8.25",
     "zksync-ethers": "^6.7.1"
-  }
+  },
+  "description": ""
 }
